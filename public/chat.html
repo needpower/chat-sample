@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat</title>
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="chat.css" />
+  </head>
+  <body>
+    <div class="chat">
+      <div class="chat-participants" id="participants"></div>
+      <div class="chat-box">
+        <div class="messages-area" id="messages-area"></div>
+        <form class="message-box" id="send-message">
+          <input type="text" name="message-input" id="message-input" class="message-input">
+          <button type="submit" class="message-send" >Отправить</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./init.js"></script>
+    <script type="module" src="./chat.js"></script>
+  </body>
+</html>
